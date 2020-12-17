@@ -1,0 +1,17 @@
+
+version: "2"
+
+services:
+  react-angular:
+    stdin_open: true
+    build:
+      context: .
+    image: angularpipeline
+
+    ports:
+      - "8000:80"
+   
+    container_name: angularcontainer
+
+
+   
